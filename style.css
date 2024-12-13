@@ -1,0 +1,40 @@
+body{
+    background-image: url(img.jpg);
+}
+.board{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    font-family:system-ui;
+    font-weight: 500;
+    color: white;
+    font-style: italic;
+
+
+}
+.title{
+    background: rgb(159, 7, 7);;
+    margin: 15px 0;
+    padding: 15px 0;
+    font-size: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px red, 0 0 8px black inset;
+}
+.cell{
+    width: 162px;
+    height: 162px;
+    background: rgb(159, 7, 7);
+    font-size: 90px;
+    float: left;
+    margin: 2px;
+    border-radius: 20%;
+    box-shadow: 0 0 8px red, 0 0 8px black inset;
+    transition: 500ms ease;
+
+}
+.cell:hover{
+    background: rgb(71, 106, 209);
+    cursor: pointer;
+    scale: 1.1;
+}
